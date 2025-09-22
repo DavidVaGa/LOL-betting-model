@@ -1,0 +1,40 @@
+# LoL Kills Betting Analyzer - Dependencias
+# =========================================
+
+# Framework principal para la interfaz web
+streamlit>=1.28.0
+
+# Manipulación y análisis de datos
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualizaciones interactivas
+plotly>=5.15.0
+
+# Cálculos estadísticos y probabilísticos
+scipy>=1.10.0
+
+# Web scraping (para el módulo scraping.py)
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# Utilidades adicionales (opcional, ya incluidas en otras librerías)
+# datetime - incluido en Python estándar
+# logging - incluido en Python estándar
+# os - incluido en Python estándar
+# io - incluido en Python estándar
+# base64 - incluido en Python estándar
+# warnings - incluido en Python estándar
+
+# Para desarrollo y testing (opcional)
+# pytest>=7.4.0
+# jupyter>=1.0.0
+
+# Versiones específicas probadas (recomendado para producción)
+# streamlit==1.28.1
+# pandas==2.0.3
+# numpy==1.24.3
+# plotly==5.17.0
+# scipy==1.10.1
+# requests==2.31.0
+# beautifulsoup4==4.12.2

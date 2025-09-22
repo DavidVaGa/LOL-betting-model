@@ -1,0 +1,27 @@
+# Dependencias de desarrollo adicionales
+# ====================================
+
+# Incluir dependencias base
+-r requirements.txt
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Jupyter para análisis exploratorio
+jupyter>=1.0.0
+ipykernel>=6.25.0
+
+# Linting y formateo de código
+black>=23.7.0
+flake8>=6.0.0
+isort>=5.12.0
+
+# Type checking
+mypy>=1.5.0
+
+# Documentación
+sphinx>=7.1.0
+
+# Análisis de código
+bandit>=1.7.5
